@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains tools and utilities for managing text summarization and tokenization processes, specifically designed to optimize content for Large Language Model (LLM) context windows. As LLMs have strict token limits, effective summarization and tokenization strategies are crucial for processing large documents while maintaining essential information.
+This repository contains test script for understand the managing text summarization and tokenization processes, specifically designed to optimize content for Large Language Model (LLM) context windows. As LLMs have strict token limits, effective summarization and tokenization strategies are crucial for processing large documents while maintaining essential information.
 
 ## Introduction to Summarization and Tokenization
 
@@ -122,8 +122,7 @@ This repository includes:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit pull requests, report issues, or suggest improvements to the summarization and tokenization strategies.
+Contributions are welcome! Please feel free to submit any new method or suggest improvements to the summarization and tokenization strategies.
 
-## License
+We will continue adding examples to better understand and refine the process in our projects.
 
-This project is open source. Please see the LICENSE file for details.

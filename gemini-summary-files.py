@@ -139,12 +139,16 @@ def main():
 
     # 2. Generate Summary
     try:
+        start = time.perf_counter()
         summary = generate_summary(model_inputs)
+        end = time.perf_counter()
         
         print("\n" + "="*40)
-        print("FINAL SUMMARY")
+        print("SUMMARY GENERATED")
         print("="*40 + "\n")
-        print(summary)
+        # print(summary)
+        
+        print(f"\nSummary generated in {end - start:.2f} seconds.")
         
         # Optional: Save to file
         with open("summary_output.txt", "w", encoding="utf-8") as f:
